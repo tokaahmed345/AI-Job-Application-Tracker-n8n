@@ -2,6 +2,8 @@
 
 An automation workflow built with **n8n** that receives job applications through a form, reads the applicant's CV, evaluates it with **AI (Google Gemini)**, saves the result in **Google Sheets**, and sends an **accept or reject email** automatically.
 
+<img width="200"  alt="jobapplication" src="https://github.com/user-attachments/assets/fe2ff49d-0ad3-49ac-a104-20f93d4de487" />
+
 ---
 
 ## The Problem
