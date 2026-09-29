@@ -64,21 +64,6 @@ Gmail (acceptance)       Gmail (rejection)
 - All applications logged in Google Sheets
 - No manual work for HR in the basic flow
 
----
-
-## How to Run
-
-1. Create a free account on [n8n Cloud](https://n8n.io) or run n8n locally.
-2. Import `workflow.json` into n8n (or build the workflow following the flow diagram above).
-3. Create the credentials:
-   - **Google Gemini**: API key from [Google AI Studio](https://aistudio.google.com)
-   - **Google Sheets** and **Gmail**: Sign in with Google
-4. Create the `Job Applications` sheet with the columns above.
-5. Click **Execute workflow**, open the form Test URL, fill it, upload a PDF CV, and submit.
-6. Check the Google Sheet and your inbox.
-7. When everything works, **activate** the workflow and use the Production URL of the form.
-
----
 
 ## Testing
 
